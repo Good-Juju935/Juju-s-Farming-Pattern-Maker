@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juju's Farming Pattern Maker</title>
+    <script defer src="index.js"></script>
+    <script src="plants.js"></script>
+    <script src="buffs.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="flex section">
+        <div class="flex grid" data-grid>
+        </div>
+        <div class="flex buttons">
+            <div class="sizemaker">
+                <div class="flex-col">
+                    <span>x:<input type="number" min="1" value="1" data-plot-x/></span>
+                    <span>y:<input type="number" min="1" value="1" data-plot-y/></span>
+                    <button data-plot-create>Create Plot</button>
+                </div>
+            </div>
+            <br>
+            <div class="button-area">
+                <button data-plant="tomato"><img src="images/1.webp" alt="Tomato" srcset="" ></button>
+                <button data-plant="potato"><img src="images/2.webp" alt="Potato" srcset="" ></button>
+                <button data-plant="cotton"><img src="images/3.webp" alt="Cotton" srcset="" ></button>
+                <button data-plant="rice"><img src="images/4.webp" alt="Rice" srcset="" ></button>
+                <button data-plant="wheat"><img src="images/5.webp" alt="Wheat" srcset="" ></button>
+                <button data-plant="onion"><img src="images/6.webp" alt="Onion" srcset="" ></button>
+                <button data-plant="carrot"><img src="images/7.webp" alt="Carrot" srcset="" ></button>
+                <button data-plant="blueberry"><img src="images/8.webp" alt="Blueberry" srcset="" ></button>
+                <button data-plant="apple"><img src="images/9.webp" alt="Apple" srcset="" ></button>
+                <button data-plant="empty"><img src="images/0.webp" alt="Apple" srcset="" ></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
