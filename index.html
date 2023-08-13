@@ -16,8 +16,8 @@
         <div class="flex buttons">
             <div class="sizemaker">
                 <div class="flex-col">
-                    <span>x:<input type="number" min="1" value="1" data-plot-x/></span>
-                    <span>y:<input type="number" min="1" value="1" data-plot-y/></span>
+                    <span>x:<input class="numbox" type="number" min="1" value="1" data-plot-x/>
+                    y:<input class="numbox" type="number" min="1" value="1" data-plot-y/></span>
                     <button data-plot-create>Create Plot</button>
                 </div>
             </div>
@@ -36,5 +36,30 @@
             </div>
         </div>
     </section>
+    <fieldset class="legend-container">
+        <legend>Legend</legend>
+        <div class="legend">
+          <div class="legend-item grow-speed">
+            <div class="legend-circle"></div>
+            <span>Grow Speed</span>
+          </div>
+          <div class="legend-item weed-block">
+            <div class="legend-circle"></div>
+            <span>Weed Block</span>
+          </div>
+          <div class="legend-item star-chance">
+            <div class="legend-circle"></div>
+            <span>Star Chance</span>
+          </div>
+          <div class="legend-item water-retain">
+            <div class="legend-circle"></div>
+            <span>Water Retain</span>
+          </div>
+          <div class="legend-item increased-yield">
+            <div class="legend-circle"></div>
+            <span>Increased Yield</span>
+          </div>
+        </div>
+      </fieldset>
 </body>
 </html>
